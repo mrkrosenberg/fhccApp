@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// dynamic value passed into routes
+// Route::get('/users/{id}', function ($id) {
+//     return 'This is user ' .$id;
+// });
+
+Route::get('/', 'PagesController@index');
+
+Route::get('/about', 'PagesController@about');
+
+Route::get('/events', 'PagesController@events');
+
