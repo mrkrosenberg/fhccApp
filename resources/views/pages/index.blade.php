@@ -1,17 +1,9 @@
-<!doctype html>
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{config('app.name', 'Foothills Climbing Community')}}</title>
-
-    </head>
-    <body>
-        <h1>Welcome to the Foothills Climbing Community</h1>
+        <h1>Foothills Climbing Community</h1>
+        
+        <h3>Welcome to the Foothills Climbing Community!</h3>
         <p>
-    
+            Climbing Advocacy for the future. We have a goal: a strong a unified climbing Community
+            dedicated to protecting and preserving the incredible and precious resource we have right 
+            here in our own backyard: the Front Range!
         </p>
-    </body>
-</html>
