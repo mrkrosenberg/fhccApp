@@ -18,14 +18,14 @@
            <li class="nav-item">
             <a class="nav-link" href="/contact">Contact Us</a>
           </li>
-          <li class="nav-item dropdown">
+          {{-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
             <div class="dropdown-menu" aria-labelledby="dropdown06">
               <a class="dropdown-item" href="/about">About Us</a>
               <a class="dropdown-item" href="/events">Events</a>
               <a class="dropdown-item" href="/contact">Contact Us</a>
             </div>
-          </li>
+          </li> --}}
        
         </ul>
         <form class="form-inline my-2 my-md-0">
