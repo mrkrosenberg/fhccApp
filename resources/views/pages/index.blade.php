@@ -1,4 +1,5 @@
-
+@extends('layouts.app')
+    @section('content')
         <h1>Foothills Climbing Community</h1>
         
         <h3>Welcome to the Foothills Climbing Community!</h3>
@@ -7,3 +8,4 @@
             dedicated to protecting and preserving the incredible and precious resource we have right 
             here in our own backyard: the Front Range!
         </p>
+    @endsection
