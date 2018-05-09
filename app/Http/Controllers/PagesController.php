@@ -23,4 +23,9 @@ class PagesController extends Controller {
         return view('pages/events')->with($data);
     }
 
+    public function contact() {
+        $title = 'Contact Us';
+        return view('pages/contact')->with('title', $title);
+    }
+
 }

@@ -22,3 +22,5 @@ Route::get('/about', 'PagesController@about');
 
 Route::get('/events', 'PagesController@events');
 
+Route::get('/contact', 'PagesController@contact');
+
