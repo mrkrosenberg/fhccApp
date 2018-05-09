@@ -5,10 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>{{config('app.name', 'Foothills Climbing Community')}}</title>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}" ></link
+
+        {{-- <title>{{config('app.name', 'Foothills Climbing Community')}}</title> --}}
 
     </head>
     <body>
-        @yield('content')
+        @include('includes.navbar')
+        <div class="container">
+            @yield('content')
+        </div>
     </body>
 </html>
